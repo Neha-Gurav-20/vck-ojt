@@ -4,13 +4,12 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import CoursesPage from "./pages/CoursesPage";
 import AdmissionPage from "./pages/AdmissionPage";
-
 import './styles/Pages.css'
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 
-function App() {
+const App = () =>  {
   const [showPopup, setShowPopup] = useState(true);
   const handleClosePopup = () => {
     setShowPopup(false);
@@ -35,8 +34,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/courses" element={<CoursesPage />} />
-          <Route path="/admission" element={<AdmissionPage />} />
-          
+          <Route path="/admissions" element={<AdmissionPage />} />
         </Routes>
         <ChatbotComponent/>
       </Router>

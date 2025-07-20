@@ -3,8 +3,7 @@ import Header from "../components/Header/Header";
 const ContactPage =() =>{
     return(
         <div className="root">
-        
-           <Header/>
+        <Header/>
            <div className="box">
             <div className="box2">
             <h1 className="b1">Contact Us</h1>

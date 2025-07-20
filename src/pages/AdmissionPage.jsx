@@ -1,10 +1,9 @@
 import Header from "../components/Header/Header";
-
+import {Link} from 'react-router-dom'
 const AdmissionPage = () =>{
     return(
          <div className="root">
-        
-            <Header/>
+        <Header/>
             <div className="box">
             <div className="box2">
             <h1 className="b1">Admissions at Vivekanand College</h1>
@@ -51,8 +50,8 @@ const AdmissionPage = () =>{
             </ol>
             <div className="box2">
             <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our 
-                <u><a href="/courses">Courses Page</a></u>or
-                <u><a href="/contact">Contact us Page</a></u>directly
+                <u><Link to={"/courses"}>Courses Page</Link></u>or
+                <u><Link to={"/contact"}>Contact us Page</Link></u>directly
             </p>
             </div>
         </div>

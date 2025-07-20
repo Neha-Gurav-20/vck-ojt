@@ -1,7 +1,9 @@
 import Header from "../components/Header/Header";
+import {Link} from 'react-router-dom'
 
 const HomePage = () => {
     return(
+        
         <div className="root">
             <Header/>
             <div className="box">  
@@ -12,7 +14,7 @@ const HomePage = () => {
             <div className="hero3">
             <h1>Welcome to Vivekanand College!</h1>
             <p>Your journey to excellence starts here.</p>
-            <a href="/admission" className="boxspirit"><u>Apply Now!</u></a>
+            <Link to={"/admissions"} className='boxspirit'>Apply Now!</Link>
              </div>
             </div>
             <p><b>Vivekanand College </b>is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in 1980, we have proudly served generations of students, empowering them to achieve their full potential.</p>
@@ -32,7 +34,7 @@ const HomePage = () => {
              
              <div className="box1">
                 <p>Ready to explore our courses?</p>
-                <a href="/courses" className="navitem">Explore Courses</a>
+                <Link to={"/courses"} className="navitem">Explore Courses</Link>
              </div>
             
              </div>

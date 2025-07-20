@@ -1,10 +1,9 @@
 import Header from "../components/Header/Header";
-
+import {Link} from 'react-router-dom'
 const CoursesPage = () => {
     return(
        <div className="root">
-        
-            <Header/>
+         <Header/>
             <div className="box">
             <div className="box2">
             <h1 className="b1">Our Academic Programs</h1>
@@ -80,7 +79,7 @@ const CoursesPage = () => {
                 <div >
                     <center className="box1">
                     <p>Have questions about a specific course?</p>
-                    <a href="/contact" className="navitem" >Inquire About Courses</a>
+                    <Link to={"/contact"} className="navitem" >Inquire About Courses</Link>
                     </center>
                 </div>
             </div>
