@@ -9,7 +9,7 @@ const HomePage = () => {
             <div className="box">  
               <div className="hero1">
                 <div >
-                    <img className="hero2"src="https://vck-ojt.vercel.app/assets/college-banner-Cz0xylpt.png"></img>
+                    <img className="hero2"src="\Images\college-banner.png"></img>
                 </div>
             <div className="hero3">
             <h1>Welcome to Vivekanand College!</h1>
@@ -28,8 +28,8 @@ const HomePage = () => {
                 <li><b>Strong Placements:</b>  Excellent career opportunities with leading companies.</li>
             </ul>
             <h2>Campus Life & Facilities</h2>
-            <img className="image" alt="Students studying in library" src="https://vck-ojt.vercel.app/assets/students-studying-DbLGuwF_.jpeg" height={200} width={399}></img>  
-             <img className="image" alt="Students playing in Campus" src="https://vck-ojt.vercel.app/assets/campus-life-Crkero7B.jpg" height={200} width={399}></img>
+            <img className="image" alt="Students studying in library" src="\Images\students-studying.jpeg" height={200} width={399}></img>  
+             <img className="image" alt="Students playing in Campus" src="\Images\campus-life.jpg" height={200} width={399}></img>
              <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
              
              <div className="box1">
